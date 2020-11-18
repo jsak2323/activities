@@ -20,6 +20,7 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 )
 
+// https://github.com/jsak2323/activities.git
 var projectFolder = flag.String("folder", "./", "absolute path of project folder")
 
 func main() {
